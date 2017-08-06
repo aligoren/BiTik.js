@@ -7,7 +7,7 @@ Elementinizi seçin. 1 tık varsayılan 1.5px verilmiştir. Ezmek için Buyut me
 
 ```javascript
 document.querySelector("button").addEventListener("click", () => {
-	new BirTik(".my").Buyut({
+	new BiTik(".my").Buyut({
 		px: 5,
 		tik: 1
 	})
