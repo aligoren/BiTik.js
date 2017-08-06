@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bi tık daha büyütebilir miyiz?</title>
+    </head>
+    <body>
+        <img class="my" src="https://aligoren.com/images/ali.jpg" alt="">
+        <br><br>
+        <button>Büyütsene</button>
+        <script src="BiTik.js" ></script>
+        <script>
+          document.querySelector("button").addEventListener("click", () => {
+            new BirTik(".my").Buyut({
+              px: 5,
+              tik: 1
+            })
+          })
+        </script>
+    </body>
+</html>
